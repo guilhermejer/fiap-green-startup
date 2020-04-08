@@ -1,0 +1,2 @@
+dotnet ef migrations add green-1.0 -> add um novo migration importante sempre mudar o nome exemplo: green-1.0
+dotnet ef database update -> Atuliza as tabelas na base

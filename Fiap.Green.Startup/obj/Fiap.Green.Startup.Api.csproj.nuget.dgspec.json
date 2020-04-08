@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/danilodominguesbarbosa/Documents/Git/fiap-green-startup/Fiap.Green.Startup/Fiap.Green.Startup.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/danilodominguesbarbosa/Documents/Git/fiap-green-startup/Fiap.Green.Startup.Domain/Fiap.Green.Startup.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/danilodominguesbarbosa/Documents/Git/fiap-green-startup/Fiap.Green.Startup.Domain/Fiap.Green.Startup.Domain.csproj",
+        "projectName": "Fiap.Green.Startup.Domain",
+        "projectPath": "/Users/danilodominguesbarbosa/Documents/Git/fiap-green-startup/Fiap.Green.Startup.Domain/Fiap.Green.Startup.Domain.csproj",
+        "packagesPath": "/Users/danilodominguesbarbosa/.nuget/packages/",
+        "outputPath": "/Users/danilodominguesbarbosa/Documents/Git/fiap-green-startup/Fiap.Green.Startup.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/danilodominguesbarbosa/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.19.60, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[2.19.60, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/danilodominguesbarbosa/Documents/Git/fiap-green-startup/Fiap.Green.Startup/Fiap.Green.Startup.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/danilodominguesbarbosa/Documents/Git/fiap-green-startup/Fiap.Green.Startup/Fiap.Green.Startup.Api.csproj",
+        "projectName": "Fiap.Green.Startup.Api",
+        "projectPath": "/Users/danilodominguesbarbosa/Documents/Git/fiap-green-startup/Fiap.Green.Startup/Fiap.Green.Startup.Api.csproj",
+        "packagesPath": "/Users/danilodominguesbarbosa/.nuget/packages/",
+        "outputPath": "/Users/danilodominguesbarbosa/Documents/Git/fiap-green-startup/Fiap.Green.Startup/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/danilodominguesbarbosa/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/danilodominguesbarbosa/Documents/Git/fiap-green-startup/Fiap.Green.Startup.Domain/Fiap.Green.Startup.Domain.csproj": {
+                "projectPath": "/Users/danilodominguesbarbosa/Documents/Git/fiap-green-startup/Fiap.Green.Startup.Domain/Fiap.Green.Startup.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
