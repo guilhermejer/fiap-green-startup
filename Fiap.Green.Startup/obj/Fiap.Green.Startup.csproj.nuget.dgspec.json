@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danilodominguesbarbosa/Projects/Fiap.Green.Startup/Fiap.Green.Startup/Fiap.Green.Startup.csproj": {}
+    "/Users/danilodominguesbarbosa/projetos/fiap-green-startup/Fiap.Green.Startup/Fiap.Green.Startup.csproj": {}
   },
   "projects": {
-    "/Users/danilodominguesbarbosa/Projects/Fiap.Green.Startup/Fiap.Green.Startup/Fiap.Green.Startup.csproj": {
+    "/Users/danilodominguesbarbosa/projetos/fiap-green-startup/Fiap.Green.Startup/Fiap.Green.Startup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danilodominguesbarbosa/Projects/Fiap.Green.Startup/Fiap.Green.Startup/Fiap.Green.Startup.csproj",
+        "projectUniqueName": "/Users/danilodominguesbarbosa/projetos/fiap-green-startup/Fiap.Green.Startup/Fiap.Green.Startup.csproj",
         "projectName": "Fiap.Green.Startup",
-        "projectPath": "/Users/danilodominguesbarbosa/Projects/Fiap.Green.Startup/Fiap.Green.Startup/Fiap.Green.Startup.csproj",
+        "projectPath": "/Users/danilodominguesbarbosa/projetos/fiap-green-startup/Fiap.Green.Startup/Fiap.Green.Startup.csproj",
         "packagesPath": "/Users/danilodominguesbarbosa/.nuget/packages/",
-        "outputPath": "/Users/danilodominguesbarbosa/Projects/Fiap.Green.Startup/Fiap.Green.Startup/obj/",
+        "outputPath": "/Users/danilodominguesbarbosa/projetos/fiap-green-startup/Fiap.Green.Startup/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/danilodominguesbarbosa/.config/NuGet/NuGet.Config"
+          "/Users/danilodominguesbarbosa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -50,24 +50,46 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Tools": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.19.60, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[2.19.60, )"
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }

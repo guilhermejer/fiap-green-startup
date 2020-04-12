@@ -1,0 +1,53 @@
+@model IEnumerable<Fiap.Green.Startup.Models.Cliente>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DtUltimaCompra)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QntCompras)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NrPontos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pessoa)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DtUltimaCompra)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QntCompras)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NrPontos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pessoa.IdPessoa)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Idcliente">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Idcliente">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Idcliente">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

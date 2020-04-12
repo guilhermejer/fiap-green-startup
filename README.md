@@ -1,2 +1,0 @@
-# Fiap-Green-Startupp
-
